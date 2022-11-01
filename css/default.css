@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif; 
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(/img/bg.jpg);
+}
+
+#main{
+    border: 1px solid rgba(233, 227, 227, 0.8);
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 90px;
+}
+
+div.row{
+    border-bottom: 1px solid rgba(233, 227, 227, 0.8);
+}
+
+a#logo-header {
+    text-decoration: none;
+}
+
+#logo-header{
+    color: #ff0000;
+    font-size: 24px;
+    padding: 5px 5px 0px 5px;
+}
+
+#slogan{
+    font-size: 16px;
+    color: gray;
+    opacity: 50%;
+    display: inline-block;
+}
+
+#call-now {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.header-foot{
+    margin-top: 10px;
+    padding: 3px 0px;
+    background-color: gray;
+    opacity: 10%;
+}
+
+#introduction{
+    
+}
+
+#introduction-description{
+    padding-right: 60px;
+}
+
+#introduction-description p{
+     margin-top: 20px;
+}
+
+#advantage{
+    padding: 70px 20px;
+}
+
+#advantage .row{
+    border: none;
+}
+
+#features-links{
+    display:flex;
+    flex-wrap:wrap;
+    color: rgb(184, 108, 20);
+    align-items: center;
+}
+
+
+#customer-review .blockquote p{
+    text-align: center;
+    font-style: italic;
+    border: 1px solid rgba(233, 227, 227, 0.8);
+    padding: 20px;
+    padding-bottom: 40px;
+    color: gray;
+}
+
+#customer-review .blockquote-footer{
+    font-size: 13px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+  /* text styles */
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  
+  /* box styles */
+  display: inline-block;
+  height: 35px;
+  padding: 0 10px;
+  border: 1px solid;
+  border-color: #2d86b6 #24659e #255796;
+  border-radius: 21px;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2) inset, 0 1px 1px rgba(1, 4, 8, 0.2);
+  
+  /* gradients */
+  background-color: #52b6ec;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF52B6EC', endColorstr='#FF2E75CE');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #52b6ec), color-stop(100%, #2e75ce));
+  background-image: -webkit-linear-gradient(top, #52b6ec 0%, #2e75ce 100%);
+  background-image: -moz-linear-gradient(top, #52b6ec 0%, #2e75ce 100%);
+  background-image: -o-linear-gradient(top, #52b6ec 0%, #2e75ce 100%);
+  background-image: linear-gradient(top, #52b6ec 0%, #2e75ce 100%);
+    
+}
+.button:hover {
+  text-decoration: none;
+  border-color: #377cae #175a9c #0c4893;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2) inset, 0 1px 1px rgba(5, 64, 140, 0.2);
+  
+  background-color: #4fa6e4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4FA6E4', endColorstr='#FF1462C4');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4fa6e4), color-stop(100%, #1462c4));
+  background-image: -webkit-linear-gradient(top, #4fa6e4 0%, #1462c4 100%);
+  background-image: -moz-linear-gradient(top, #4fa6e4 0%, #1462c4 100%);
+  background-image: -o-linear-gradient(top, #4fa6e4 0%, #1462c4 100%);
+  background-image: linear-gradient(top, #4fa6e4 0%, #1462c4 100%);
+}
+.button:active {
+  border-color: #094b84 #094b84 #0f4585;
+  box-shadow: 0 1px 1px rgba(241, 243, 247, 0.2), 0 0 20px rgba(0, 0, 0, 0.5) inset;
+  
+  background-color: #1c7ec9;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1C7EC9', endColorstr='#FF2395D9');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1c7ec9), color-stop(100%, #2395d9));
+  background-image: -webkit-linear-gradient(top, #1c7ec9 0%, #2395d9 100%);
+  background-image: -moz-linear-gradient(top, #1c7ec9 0%, #2395d9 100%);
+  background-image: -o-linear-gradient(top, #1c7ec9 0%, #2395d9 100%);
+  background-image: linear-gradient(top, #1c7ec9 0%, #2395d9 100%);
+}
+
+#footer{
+    background-image: url(/img/bg-footer.png);
+    border-bottom: none;
+}
+
+#footer h5{
+    color: white;
+    padding-top: 10px;
+}
+
+#footer p{
+    padding-top: 10px;
+    color: gray;
+    font-size: 12px;
+    
+}
+
+#footer-foot {
+    padding-top: 50px;
+    color: gray;
+    font-size: 14px;
+    background-color: rgb(34,34,34);
+}
+
+#footer img{
+    margin-left: 32px;
+}
+
+#footer-foot img{
+    margin: 0px 0px 20px 50px;
+}
+
+
+
+
