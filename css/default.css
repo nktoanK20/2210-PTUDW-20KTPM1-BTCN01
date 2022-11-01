@@ -10,7 +10,7 @@ html {
 }
 
 body{
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
 }
 
 #main{
@@ -158,7 +158,7 @@ div.header-foot{
 }
 
 #footer{
-    background-image: url(/img/bg-footer.png);
+    background-image: url(../img/bg-footer.png);
     border-bottom: none;
 }
 
